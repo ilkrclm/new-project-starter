@@ -1,0 +1,7 @@
+export { default as Text } from './text'
+export { default as Icon } from './icon'
+export { default as Section } from './section'
+export { default as Grid } from './grid'
+export { default as Container } from './container'
+export { default as Header } from './header'
+export { default as Footer } from './footer'
