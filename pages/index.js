@@ -1,16 +1,11 @@
-import ExampleCardBuilder from '@/components/card-builder-example'
-import ExampleCarousel from '@/components/carousel-builder-example'
-import ParentComponent from '@/components/example-form-builder'
 import Layout from '@/components/layout'
-import ExampleLayoutBuilder from '@/components/layout-builder-example'
-import ExampleSwiperCarousel from '@/components/swiper-carousel-example'
 import { NextSeo } from 'next-seo'
 
 export default function Home({ data }) {
   return (
     <>
       <NextSeo
-        title='Home'
+        title='Ana Sayfa'
         description='Home'
         canonical={process.env.NEXT_PUBLIC_URL}
         openGraph={{
@@ -38,15 +33,7 @@ export default function Home({ data }) {
           siteName: 'SiteName',
         }}
       />
-      <Layout>
-        <section>
-          {/* <ParentComponent /> */}
-          <ExampleLayoutBuilder />
-          <ExampleCardBuilder />
-          {/* <ExampleCarousel />
-          <ExampleSwiperCarousel /> */}
-        </section>
-      </Layout>
+      <Layout></Layout>
     </>
   )
 }

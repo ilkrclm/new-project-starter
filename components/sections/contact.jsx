@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Contact({ data = {} }) {
+export default function ContactSection({ data = {} }) {
   console.log(data)
   return (
     <section>

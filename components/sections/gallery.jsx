@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Gallery({ data = {} }) {
+export default function GallerySection({ data = {} }) {
   console.log(data)
   return (
     <section>

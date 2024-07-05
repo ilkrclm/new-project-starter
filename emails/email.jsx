@@ -1,3 +1,4 @@
+// Example Email Template which uses @react-email/components with Tailwind
 import {
   Body,
   Button,
@@ -48,13 +49,13 @@ export const VercelInviteUserEmail = ({
                 className='mx-auto my-0'
               />
             </Section>
-            <Heading className='mx-0 my-[30px] text-center text-[24px] font-normal text-black'>
+            <Heading className='mx-0 my-[30px] text-center font-normal text-[24px] text-black'>
               Join our <strong>{teamName}</strong> on <strong>Vercel</strong>
             </Heading>
-            <Text className='text-[14px] leading-[24px] text-black'>
+            <Text className='leading-[24px] text-[14px] text-black'>
               Hello {username},
             </Text>
-            <Text className='text-[14px] leading-[24px] text-black'>
+            <Text className='leading-[24px] text-[14px] text-black'>
               <strong>bukinoshita</strong> (
               <Link
                 href={`mailto:${invitedByEmail}`}
@@ -95,20 +96,20 @@ export const VercelInviteUserEmail = ({
             </Section>
             <Section className='mb-[32px] mt-[32px] text-center'>
               <Button
-                className='rounded bg-[#000000] px-4 py-2 text-center text-[12px] font-semibold text-white no-underline'
+                className='rounded bg-[#000000] px-4 py-2 text-center font-semibold text-[12px] text-white no-underline'
                 href={inviteLink}
               >
                 Join the team
               </Button>
             </Section>
-            <Text className='text-[14px] leading-[24px] text-black'>
+            <Text className='leading-[24px] text-[14px] text-black'>
               or copy and paste this URL into your browser:{' '}
               <Link href={inviteLink} className='text-blue-600 no-underline'>
                 {inviteLink}
               </Link>
             </Text>
             <Hr className='mx-0 my-[26px] w-full border border-solid border-[#eaeaea]' />
-            <Text className='text-[12px] leading-[24px] text-[#666666]'>
+            <Text className='leading-[24px] text-[#666666] text-[12px]'>
               This invitation was intended for{' '}
               <span className='text-black'>{username} </span>.This invite was
               sent from <span className='text-black'>{inviteFromIp}</span>{' '}

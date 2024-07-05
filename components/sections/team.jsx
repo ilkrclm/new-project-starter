@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Team({ data = {} }) {
+export default function TeamSection({ data = {} }) {
   console.log(data)
   return (
     <section>

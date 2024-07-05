@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Blog({ data = {} }) {
+export default function BlogSection({ data = {} }) {
   console.log(data)
   return (
     <section>

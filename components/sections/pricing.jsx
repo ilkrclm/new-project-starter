@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Pricing({ data = {} }) {
+export default function PricingSection({ data = {} }) {
   console.log(data)
   return (
     <section className=''>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function ({ data = {} }) {
+export default function AboutSection({ data = {} }) {
   console.log(data)
   return (
     <section>

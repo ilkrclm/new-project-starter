@@ -20,7 +20,7 @@ export default async (req, res) => {
   const options = {
     from: `${process.env.MAILUSER}`,
     to: `${process.env.SENDTO}`,
-    subject: 'hello world',
+    subject: 'Hello World',
     html: emailHtml,
   }
 
